@@ -44,6 +44,10 @@ To recieve the index from the microservice use this boilerplate python:
 
     # Get the data from the response
     sorted_data = response["sorted_data"]
+    
+    #If there is an error print it
+    if "error" in response:
+        print("Error:", response["error"])
 
 UML Diagram:
 TODO
