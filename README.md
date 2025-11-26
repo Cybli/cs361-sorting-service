@@ -50,4 +50,5 @@ To recieve the index from the microservice use this boilerplate python:
         print("Error:", response["error"])
 
 UML Diagram:
-TODO
+
+<img width="762" height="402" alt="Microservice - sorting UML drawio" src="https://github.com/user-attachments/assets/01df2bbd-abb6-4d19-aa55-29b8e3915420" />
