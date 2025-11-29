@@ -23,7 +23,7 @@ def main():
     socket = context.socket(zmq.REP)
     socket.bind("tcp://*:5559")
 
-    print("Sorting microservice running on port 5556...", flush=True)
+    print("Sorting microservice running on port 5559...", flush=True)
 
     while True:
         #Recieve the message
